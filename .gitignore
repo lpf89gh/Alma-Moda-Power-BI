@@ -1,0 +1,15 @@
+# Power BI / Windows
+*.pbit
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporários
+*.tmp
+*.temp
+*.bak
+
+# Configurações locais
+.vscode/
+.idea/
