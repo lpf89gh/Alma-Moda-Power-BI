@@ -2,7 +2,7 @@
 
 Projeto de Business Intelligence desenvolvido no Power BI para análise de desempenho de um e-commerce fictício de moda feminina.
 
-> Projeto de portfólio: a base de dados é sintética e foi estruturada a partir de uma base de vendas utilizada para fins de estudo.
+> Projeto de portfólio, base de dados sintética e estruturada a partir de uma base de vendas utilizada para fins de estudo.
 
 ## Objetivo
 
