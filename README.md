@@ -35,10 +35,13 @@ Alma-Moda-Power-BI/
 ├── dax/
 │   └── medidas.md
 │
-└── imagens/
-    ├── visao-geral.png
-    ├── produtos-categorias.png
-    └── vendedores-desempenho.png
+├── imagens/
+│   ├── visao-geral.png
+│   ├── produtos-categorias.png
+│   └── vendedores-desempenho.png
+│
+└── video/
+    └── Projeto BI - Análise Ecommerce Alma Moda.mp4
 ```
 
 ## Dashboard
@@ -55,14 +58,22 @@ Alma-Moda-Power-BI/
 
 ![Vendedores e Desempenho](imagens/vendedores-desempenho.png)
 
+## Demonstração
+
+Vídeo demonstrando as principais interações e filtros do dashboard:
+
+[▶️ Assistir demonstração do dashboard](video/Projeto%20BI%20-%20Análise%20Ecommerce%20Alma%20Moda.mp4)
+
 ## Modelo de dados
 
 O modelo utiliza uma estrutura em estrela, separando a tabela fato das dimensões:
 
 ### Tabela fato
+
 - `fVendas`
 
 ### Dimensões
+
 - `dProdutos`
 - `dCategorias`
 - `dRegiao`
@@ -88,12 +99,14 @@ Os relacionamentos são do tipo 1:* e com direção de filtro da dimensão para 
 Página destinada à visão executiva do negócio.
 
 Principais indicadores:
+
 - Faturamento
 - Número de Vendas
 - Ticket Médio
 - Quantidade Vendida
 
 Análises:
+
 - faturamento ao longo do tempo;
 - faturamento por região;
 - faturamento por categoria;
@@ -104,6 +117,7 @@ Análises:
 Página dedicada à análise do mix de produtos.
 
 Visuais:
+
 - Top 10 produtos por faturamento;
 - Top 10 produtos por quantidade vendida;
 - quantidade vendida por categoria;
@@ -116,6 +130,7 @@ O ranking de quantidade utiliza desempate por faturamento para garantir posiçõ
 Página dedicada à avaliação do desempenho comercial.
 
 Visuais:
+
 - ranking de vendedores por faturamento;
 - ticket médio por vendedor;
 - quantidade vendida por vendedor;
@@ -125,25 +140,25 @@ Visuais:
 
 A base utilizada no projeto contém:
 
-- **3.000 vendas**
-- **7.026 itens vendidos**
-- **R$ 1.755.517,23 de faturamento**
-- **R$ 585,17 de ticket médio**
-- período de análise entre **2024 e 2025**
+- 3.000 vendas
+- 7.026 itens vendidos
+- R$ 1.755.517,23 de faturamento
+- R$ 585,17 de ticket médio
+- período de análise entre 2024 e 2025
 
 ### Crescimento de faturamento
 
 Comparando 2025 com 2024:
 
-- Faturamento 2024: **R$ 673.311,86**
-- Faturamento 2025: **R$ 1.082.205,38**
-- Crescimento: **60,73%**
+- Faturamento 2024: R$ 673.311,86
+- Faturamento 2025: R$ 1.082.205,38
+- Crescimento: 60,73%
 
 ### Participação por categoria
 
-- Roupa: **56,28%**
-- Calçado: **41,08%**
-- Outros: **2,64%**
+- Roupa: 56,28%
+- Calçado: 41,08%
+- Outros: 2,64%
 
 ### Regiões
 
@@ -181,12 +196,11 @@ As maiores receitas foram observadas em:
 
 ## Uso de Inteligência Artificial e Ferramentas
 
-Durante o desenvolvimento deste projeto, utilizei ChatGpt como apoio ao processo de aprendizagem e desenvolvimento das medidas DAX.
+Durante o desenvolvimento deste projeto, utilizei ChatGPT como apoio ao processo de aprendizagem e desenvolvimento das medidas DAX.
 
 As medidas foram posteriormente analisadas, testadas e validadas no Power BI para garantir que os resultados estivessem de acordo com a lógica do projeto.
 
 O layout e a identidade visual do dashboard foram desenvolvidos no Canva e posteriormente aplicados ao Power BI, mantendo os visuais e recursos interativos da ferramenta.
-
 
 ## Observação sobre os dados
 
