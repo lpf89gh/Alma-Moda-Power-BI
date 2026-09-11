@@ -62,7 +62,7 @@ Alma-Moda-Power-BI/
 
 Vídeo demonstrando as principais interações e filtros do dashboard:
 
-[▶️ Assistir demonstração do dashboard](video/Projeto%20BI%20-%20Análise%20Ecommerce%20Alma%20Moda.mp4)
+[▶️ Assistir demonstração do dashboard](https://github.com/lpf89gh/Alma-Moda-Power-BI/raw/refs/heads/main/video/Projeto%20BI%20-%20An%C3%A1lise%20Ecommerce%20Alma%20Moda.mp4)
 
 ## Modelo de dados
 
